@@ -43,16 +43,53 @@ body {
 .electron {
     width: 3rem;
     height: 3rem;
-    border-radius: 4rem;
     background-color: #fff;
-}
-.electron:nth-child(1) {
+    border-radius: 20rem;
     position: relative;
+    top: 10rem;
     left: 12rem;
+}
+.electron1 {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 20rem;
+    position: relative;
+    top: -15rem;
+    left: 6rem; 
+}
+.electron2 {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 20rem;
+    position: relative;
+    top: -1rem;
+    left: -15rem;
+}
+.electron3 {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 20rem;
+    position: relative;
+    top: -2rem;
+    left: 4rem;
+}
+.electron4 {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 20rem;
+    position: relative;
+    top: 15rem;
+    left: -9rem;
 }
 .nucleo {
     width: 6rem;
     height: 6rem;
     background-color: white;
     border-radius: 4rem;
+
+    position: absolute;
 }
