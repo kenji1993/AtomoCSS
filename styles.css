@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atom {
+    width: 45rem;
+    height: 45rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orbita {
+    width: 40rem;
+    height: 40rem;
+    border: 0.2rem solid #fff;
+    border-radius: 20rem;
+    position: absolute;
+}
+.orbita:nth-child(1) {
+    
+}
+.nucleo {
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 2rem;
+}
