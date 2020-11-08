@@ -44,7 +44,7 @@ body {
 .electron {
     width: 5rem;
     height: 5rem;
-    background-color: #fff;
+    background-color: #d47ca3;
     border-radius: 20rem;
     position: relative;
     top: 10rem;
@@ -53,7 +53,7 @@ body {
 .electron1 {
     width: 4rem;
     height: 4rem;
-    background-color: #fff;
+    background-color: #d47ca3;
     border-radius: 20rem;
     position: relative;
     top: -15rem;
@@ -62,7 +62,7 @@ body {
 .electron2 {
     width: 3rem;
     height: 3rem;
-    background-color: #fff;
+    background-color: #d47ca3;
     border-radius: 20rem;
     position: relative;
     top: -1rem;
@@ -71,7 +71,7 @@ body {
 .electron3 {
     width: 3rem;
     height: 3rem;
-    background-color: #fff;
+    background-color: #d47ca3;
     border-radius: 20rem;
     position: relative;
     top: -3rem;
@@ -80,7 +80,7 @@ body {
 .electron4 {
     width: 3rem;
     height: 3rem;
-    background-color: #fff;
+    background-color:#d47ca3;
     border-radius: 20rem;
     position: relative;
     top: 15rem;
@@ -91,8 +91,8 @@ body {
     height: 6rem;
     border-radius: 4rem;
     position: absolute;
-    background: #d9a7c7;  /* fallback for old browsers */
-    background: -webkit-radial-gradient(#fffcdc, #d1aac3 , #be6da1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: radial-gradient(#fffcdc, #d1aac3 , #be6da1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #d9a7c7; 
+    background: -webkit-radial-gradient(#ffcfee , #d1aac3 ,#fffcdc); 
+    background: radial-gradient(#ce69aa , #f8b4df ,#ffffff);
+    box-shadow: 1rem 1rem 8rem 8rem rgb(250, 168, 243);
 }
