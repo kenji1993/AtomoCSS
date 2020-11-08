@@ -44,51 +44,66 @@ body {
 .electron {
     width: 5rem;
     height: 5rem;
-    background-color: #d47ca3;
+    background: #ad4eca;
+    background: -webkit-radial-gradient(#ad4eca ,#ffffff);
+    background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
     top: 10rem;
     left: 12rem;
+    box-shadow: 0.5rem 0.5rem 2rem 2rem rgb(223, 191, 241);
 }
 .electron1 {
     width: 4rem;
     height: 4rem;
-    background-color: #d47ca3;
+    background: #ad4eca;
+    background: -webkit-radial-gradient(#ad4eca ,#ffffff);
+    background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
     top: -15rem;
     left: 5rem; 
+    box-shadow: 0.5rem 0.5rem 2rem 2rem rgb(223, 191, 241);
 }
 .electron2 {
     width: 3rem;
     height: 3rem;
-    background-color: #d47ca3;
+    background: #ad4eca;
+    background: -webkit-radial-gradient(#ad4eca ,#ffffff);
+    background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
     top: -1rem;
     left: -15rem;
+    box-shadow: 0.5rem 0.5rem 2rem 2rem rgb(223, 191, 241);
 }
 .electron3 {
     width: 3rem;
     height: 3rem;
-    background-color: #d47ca3;
+    background: #ad4eca;
+    background: -webkit-radial-gradient(#ad4eca ,#ffffff);
+    background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
     top: -3rem;
     left: 4rem;
+    box-shadow: 0.5rem 0.5rem 2rem 2rem rgb(223, 191, 241);
 }
 .electron4 {
     width: 3rem;
     height: 3rem;
-    background-color:#d47ca3;
+    background: #ad4eca;
+    background: -webkit-radial-gradient(#ad4eca ,#ffffff);
+    background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
     top: 15rem;
     left: -11rem;
+    box-shadow: 0.5rem 0.5rem 2rem 2rem rgb(223, 191, 241);
 }
 .nucleo {
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 4rem;
     position: absolute;
     background: #d9a7c7; 
