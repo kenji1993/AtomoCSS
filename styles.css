@@ -31,16 +31,14 @@ body {
     box-shadow: 3rem 5rem #d47ca3;
 }
 .orbita:nth-child(1) {
-    transform:  rotateY(100deg) rotateX(40deg);
+    transform:  rotateY(100deg) rotateX(-20deg) scale(1.2);
 }
 .orbita:nth-child(2) {
-    transform: rotateY(120deg) rotateX(80deg);
+    transform: rotateY(120deg) rotateX(80deg) scale(0.8);
+
 }
 .orbita:nth-child(3) {
-    transform: rotateY(100deg) rotateX(120deg);
-}
-.orbita:nth-child(4) {
-    transform: rotateY(100deg) rotateX(160deg);
+    transform: rotateY(100deg) rotateX(40deg) scale(1.2);
 }
 .electron {
     width: 5rem;
@@ -50,20 +48,20 @@ body {
     background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
-    top: 10rem;
-    left: 12rem;
+    top: 13rem;
+    left: 17rem;
     box-shadow: 0 0 0.5rem 0.5rem rgb(223, 191, 241);
 }
 .electron1 {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     background: #ad4eca;
     background: -webkit-radial-gradient(#ad4eca ,#ffffff);
     background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
-    top: -15rem;
-    left: 5rem; 
+    top: -20rem;
+    left: 8rem; 
     box-shadow: 0 0 0.5rem 0.5rem rgb(223, 191, 241);
 }
 .electron2 {
@@ -86,19 +84,19 @@ body {
     background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
-    top: -3rem;
-    left: 4rem;
+    top: 1.5rem;
+    left: 10rem;
     box-shadow: 0 0 0.5rem 0.5rem rgb(223, 191, 241);
 }
 .electron4 {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     background: #ad4eca;
     background: -webkit-radial-gradient(#ad4eca ,#ffffff);
     background: radial-gradient(#ad4eca ,#ffffff);
     border-radius: 20rem;
     position: relative;
-    top: 15rem;
+    top: 18rem;
     left: -11rem;
     box-shadow: 0 0 0.5rem 0.5rem rgb(223, 191, 241);
 }
