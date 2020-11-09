@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.orbita {
+.atomic-orbital {
     width: 40rem;
     height: 40rem;
     border: 1rem solid #cc5486;
@@ -30,16 +30,16 @@ body {
     position: absolute;
     box-shadow: 3rem 5rem #d47ca3;
 }
-.orbita:nth-child(1) {
+.atomic-orbital:nth-child(1) {
     transform:  rotateY(100deg) rotateX(40deg);
 }
-.orbita:nth-child(2) {
+.atomic-orbital:nth-child(2) {
     transform: rotateY(120deg) rotateX(80deg);
 }
-.orbita:nth-child(3) {
+.atomic-orbital:nth-child(3) {
     transform: rotateY(100deg) rotateX(120deg);
 }
-.orbita:nth-child(4) {
+.atomic-orbital:nth-child(4) {
     transform: rotateY(100deg) rotateX(160deg);
 }
 .electron {
@@ -51,38 +51,50 @@ body {
     box-shadow: 0 0 0.5rem 0.5rem rgb(223, 191, 241);
 }
 .electron0 {
-    width: 5rem;
-    height: 5rem;  
+    width: 4rem;
+    height: 4rem;  
     top: 10rem;
-    left: 12rem;
+    left: 14rem;
 
 }
 .electron1 {
     width: 4rem;
     height: 4rem;
     top: -15rem;
-    left: 5rem; 
+    left: 7rem; 
 
 }
 .electron2 {
-    width: 3rem;
-    height: 3rem;
-    top: -1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: -2rem;
     left: -15rem;
 }
 .electron3 {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     top: -3rem;
-    left: 4rem;
+    left: 6rem;
 }
 .electron4 {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     top: 15rem;
-    left: -11rem;
+    left: -12rem;
 }
-.nucleo {
+.electron5 {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 1rem;
+    left: 6rem;
+}
+.electron6 {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 8rem;
+    left: -22rem;
+}
+.nucleus {
     width: 8rem;
     height: 8rem;
     border-radius: 4rem;
@@ -91,4 +103,7 @@ body {
     background: -webkit-radial-gradient(#ffcfee , #d1aac3 ,#fffcdc); 
     background: radial-gradient(#ce69aa , #f8b4df ,#ffffff);
     box-shadow: 1rem 1rem 8rem 8rem rgb(250, 168, 243);
+}
+.nucleus:hover {
+    box-shadow: 1rem 1rem 12rem 12rem rgb(250, 168, 243);
 }
